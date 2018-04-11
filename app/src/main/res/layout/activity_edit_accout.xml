@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditAccoutActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/Editpage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView99"
+                android:layout_width="420dp"
+                android:layout_height="87dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/title" />
+
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Edit Account:"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/text1"
+                    android:layout_width="23dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Username:"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/SUser"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="TextView"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/Buser"
+                    android:layout_width="22dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#5f0909"
+                    android:text="Edit"
+                    android:textColor="@android:color/background_light" />
+
+                <EditText
+                    android:id="@+id/editUser"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="New Username"
+                    android:inputType="textPersonName"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/em"
+                    android:layout_width="23dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Email:"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/Semail"
+                    android:layout_width="23dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="."
+                    android:textSize="18sp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/Vefi"
+                    android:layout_width="22dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#5f0909"
+                    android:text="Verify email"
+                    android:textColor="@android:color/background_light" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView888"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/editPassword"
+                    android:layout_width="22dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#5f0909"
+                    android:text="Forgot Password?"
+                    android:textColor="@android:color/background_light" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/SaveEdits"
+                style="?android:textAppearanceSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:background="#5f0909"
+                android:text="Update Account"
+                android:textColor="@android:color/background_light"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>

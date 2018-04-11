@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "223661767447",
+    "firebase_url": "https://filmscout-14eb2.firebaseio.com",
+    "project_id": "filmscout-14eb2",
+    "storage_bucket": "filmscout-14eb2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:223661767447:android:da461f394dee6361",
+        "android_client_info": {
+          "package_name": "com.example.simeonm.filmscout"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "223661767447-brtqq4nfqt49mvlp4pq46phmfa7vqe4i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.simeonm.filmscout",
+            "certificate_hash": "4602711cd2831e63d07ad8ad50ccc053ad016ef3"
+          }
+        },
+        {
+          "client_id": "223661767447-o2ms3jm9mlpj4evq873ceqtqrtm6u99m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyvqBQS0is3sbM9tPT2LUz6kfstrLzLDk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "223661767447-o2ms3jm9mlpj4evq873ceqtqrtm6u99m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

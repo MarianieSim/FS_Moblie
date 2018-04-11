@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5f0909"
+    tools:context=".AboutUsActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp">
+
+            <ImageView
+                android:id="@+id/imageView22"
+                android:layout_width="420dp"
+                android:layout_height="87dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/title" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="318dp"
+                android:orientation="vertical"
+                tools:layout_editor_absoluteX="10dp">
+
+                <TextView
+                    android:id="@+id/text9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="About Us:"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/text34"
+                    android:layout_width="374dp"
+                    android:layout_height="222dp"
+                    android:text="Here at FilmScout, we believe that In today’s society people use up a lot of their free time watching movies. Many people are faced with indecision or have specific taste when it comes to deciding what movie to watch. Currently, no program can meet a person’s needs if they wanted to watch a moderately funny 1980’s cop movie with some feel-good themes or a spy movie starring a particular actor that is also appropriate for children. What FilmScout can do for you is take a genre and find your perfect movie or something close. Features include the ability to search for movies, select movies the user has seen previously or want to watch later, watch trailers."
+                    android:textColor="@android:color/background_light"
+                    tools:layout_editor_absoluteX="20dp"
+                    tools:layout_editor_absoluteY="135dp" />
+
+                <TextView
+                    android:id="@+id/text444"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Creators: Khadija Panirwala, Marianie Simeon and Abri Nash "
+                    android:textColor="@android:color/background_light" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
