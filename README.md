@@ -12,22 +12,13 @@ watch later, watch trailers.
 Creators: Khadija Panirwala, Marianie Simeon and Abri Nash
 
 Direction:
-Direction:
-1. Log in to our email in Gmail, so the connection to Firebase can go through
-     Email: filmscoutsse@gmail.com
-     Password: filmsc0ut
-2. Download Android studio
-3. Download our project on GitHub
-4. Open the Android studio application, then press "open the existing project" and select our project
-5. Press Tool from the navigation bar on top, and then firebase
-6. Scroll down to Authentication and press on it.
-7. Click Email and password authentication
-8. Under 1, click connect to firebase
-9. Choose an existing firebase project and connect to firebase
-10. Build and run the project (Android studio might ask you to download stuff during the building or running)
-10. Create a virtual phone emulator using Android Oreo SDK for best design layout
-11. Once virtual phone emulator open, press the more button (the three dots, under the square) on the gray toolbar. 
-12. Go to google play, and press update 
-13. Sign in to your Gmail and update the google play on the virtual phone emulator.
-14. Now exit the virtual phone emulator, and build and run the project again.
-15. Now you are all set to use FilmScout
+1. Download Android studio
+2. Clone the FS_Moblie project on GitHub
+3. Open the Android studio application, then press "open the existing project" and select the FS_Moblie project
+4. Press the green hammer to Build the project
+5. Press the green play button to run the project (Android studio might ask you to download stuff during the building or running)
+[Create a virtual phone emulator using Android Oreo SDK for best design layout]
+6. Press Create new device -> Select Pixel 2 XL -> Press next -> Press download next to Oreo -> accecpt and finish the download -> click next -> click finish 
+7. select the virtual phone emulator that was just created and press ok.
+8. Now you are all set to use FilmScout
+
