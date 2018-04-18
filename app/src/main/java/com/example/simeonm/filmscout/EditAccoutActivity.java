@@ -1,5 +1,4 @@
 package com.example.simeonm.filmscout;
-
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.net.Uri;
@@ -99,9 +98,12 @@ public class EditAccoutActivity extends AppCompatActivity {
 
             if (user.isEmailVerified()) {
                 Emails.setText(user.getEmail());
+                Verfi = (Button) findViewById(R.id.Vefi);
+                Verfi.setVisibility(View.INVISIBLE);
             } else {
                 Emails.setText("Email Not Verified (Click to Verify)");
                 Verfi = (Button) findViewById(R.id.Vefi);
+                Verfi.setVisibility(View.VISIBLE);
                 Verfi.setOnClickListener(new View.OnClickListener() {
                     public void onClick(View v) {
                         user.sendEmailVerification().addOnCompleteListener(new OnCompleteListener<Void>() {

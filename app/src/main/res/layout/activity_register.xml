@@ -36,6 +36,24 @@
                 android:inputType="textPersonName" />
 
             <EditText
+                android:id="@+id/RFname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="First Name"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/RLname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="Last Name"
+                android:inputType="textPersonName" />
+
+            <EditText
                 android:id="@+id/Remail"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

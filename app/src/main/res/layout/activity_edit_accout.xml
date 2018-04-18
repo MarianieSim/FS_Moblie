@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#5f0909"
     tools:context=".EditAccoutActivity">
 
     <ScrollView
@@ -30,6 +31,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Edit Account:"
+                android:textColor="@android:color/background_light"
                 android:textSize="24sp" />
 
             <TextView
@@ -50,6 +52,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="Username:"
+                    android:textColor="@android:color/background_light"
                     android:textSize="18sp" />
 
                 <TextView
@@ -58,6 +61,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="TextView"
+                    android:textColor="@android:color/background_light"
                     android:textSize="18sp" />
             </LinearLayout>
 
@@ -72,7 +76,7 @@
                     android:layout_width="22dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:background="#5f0909"
+                    android:background="@android:drawable/alert_dark_frame"
                     android:text="Edit"
                     android:textColor="@android:color/background_light" />
 
@@ -84,6 +88,8 @@
                     android:ems="10"
                     android:hint="New Username"
                     android:inputType="textPersonName"
+                    android:textColor="@android:color/background_light"
+                    android:textColorHint="@android:color/background_light"
                     android:textSize="14sp" />
 
             </LinearLayout>
@@ -106,6 +112,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="Email:"
+                    android:textColor="@android:color/background_light"
                     android:textSize="18sp" />
 
                 <TextView
@@ -114,6 +121,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="."
+                    android:textColor="@android:color/background_light"
                     android:textSize="18sp" />
 
 
@@ -130,18 +138,12 @@
                     android:layout_width="22dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:background="#5f0909"
+                    android:background="@android:drawable/alert_dark_frame"
                     android:text="Verify email"
                     android:textColor="@android:color/background_light" />
 
 
             </LinearLayout>
-
-            <TextView
-                android:id="@+id/textView888"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -154,7 +156,7 @@
                     android:layout_width="22dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:background="#5f0909"
+                    android:background="@android:drawable/alert_dark_frame"
                     android:text="Forgot Password?"
                     android:textColor="@android:color/background_light" />
 
@@ -166,7 +168,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
-                android:background="#5f0909"
+                android:background="@android:drawable/alert_dark_frame"
                 android:text="Update Account"
                 android:textColor="@android:color/background_light"
                 android:textStyle="bold" />

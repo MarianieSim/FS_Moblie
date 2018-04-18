@@ -28,7 +28,7 @@
                 android:id="@+id/textSe"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Seen Movie:"
+                android:text="Seen Movies:"
                 android:textColor="@android:color/background_light"
                 android:textSize="18sp" />
         </LinearLayout>

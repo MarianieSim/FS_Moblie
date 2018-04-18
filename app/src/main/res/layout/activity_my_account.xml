@@ -59,7 +59,7 @@
                 android:layout_width="371dp"
                 android:layout_height="60dp"
                 android:background="#5f0909"
-                android:text="Movie You want to Watch List"
+                android:text="Watch List"
                 android:textColor="@android:color/background_light" />
 
             <Button
@@ -67,7 +67,7 @@
                 android:layout_width="371dp"
                 android:layout_height="60dp"
                 android:background="#5f0909"
-                android:text="Seen Movies List"
+                android:text="Seen Movies"
                 android:textColor="@android:color/background_light" />
 
             <Button

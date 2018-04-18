@@ -28,7 +28,7 @@
                 android:id="@+id/textVG"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Movie You Want To Watch:"
+                android:text="Watch List:"
                 android:textColor="@android:color/background_light"
                 android:textSize="18sp" />
         </LinearLayout>
