@@ -7,10 +7,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-import com.google.android.gms.auth.api.Auth;
-import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
-import com.google.firebase.auth.FirebaseAuthUserCollisionException;
 import com.google.firebase.auth.FirebaseUser;
 
 public class MyAccountActivity extends AppCompatActivity {
@@ -68,7 +65,7 @@ public class MyAccountActivity extends AppCompatActivity {
             public void onClick(View v) {
                 mAuth.getInstance().signOut();
                 finish();
-                startActivity(new Intent(MyAccountActivity.this, MainActivity.class));
+                startActivity(new Intent(MyAccountActivity.this, MActivity.class));
             }
         });
 

@@ -1,17 +1,12 @@
 package com.example.simeonm.filmscout;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.TextView;
 
-import com.google.android.gms.auth.api.Auth;
-import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
-import com.google.firebase.auth.FirebaseAuthUserCollisionException;
 import com.google.firebase.auth.FirebaseUser;
 
 public class WelcomeActivity extends AppCompatActivity {
@@ -45,7 +40,7 @@ public class WelcomeActivity extends AppCompatActivity {
             public void onClick(View v) {
                 mAuth.getInstance().signOut();
                 finish();
-                startActivity(new Intent(WelcomeActivity.this, MainActivity.class));
+                startActivity(new Intent(WelcomeActivity.this, MActivity.class));
             }
         });
 
@@ -76,7 +71,7 @@ public class WelcomeActivity extends AppCompatActivity {
         super.onStart();
         if (mAuth.getCurrentUser() == null) {
             finish();
-            startActivity(new Intent(this, MainActivity.class));
+            startActivity(new Intent(this, MActivity.class));
         }
     }
 }
