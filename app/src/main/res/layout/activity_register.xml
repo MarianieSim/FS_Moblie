@@ -6,7 +6,9 @@
     android:layout_height="match_parent"
     android:gravity="center_horizontal"
     android:orientation="vertical"
-    tools:context=".RegisterActivity">
+    android:background="#5f0909"
+
+    tools:context=".app.main.RegisterActivity">
 
     <!-- Login progress -->
     <ScrollView

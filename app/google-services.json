@@ -49,6 +49,94 @@
           "status": 2
         }
       }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:223661767447:android:95d60b819d15b1e6",
+        "android_client_info": {
+          "package_name": "com.filmscout.nasha"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "223661767447-s7hcapgg6t8kg0a9fevkjf5fbpm7ks3i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.filmscout.nasha",
+            "certificate_hash": "a07203387f2e18895c3eda3ada45a7b4f1c8d3e3"
+          }
+        },
+        {
+          "client_id": "223661767447-o2ms3jm9mlpj4evq873ceqtqrtm6u99m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyvqBQS0is3sbM9tPT2LUz6kfstrLzLDk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "223661767447-o2ms3jm9mlpj4evq873ceqtqrtm6u99m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:223661767447:android:ba9cfb4f29e5efab",
+        "android_client_info": {
+          "package_name": "com.polbins.themoviedb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "223661767447-t9boiefshoh7tt3pvq9b9a8tc0tij6k3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.polbins.themoviedb",
+            "certificate_hash": "a07203387f2e18895c3eda3ada45a7b4f1c8d3e3"
+          }
+        },
+        {
+          "client_id": "223661767447-o2ms3jm9mlpj4evq873ceqtqrtm6u99m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyvqBQS0is3sbM9tPT2LUz6kfstrLzLDk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "223661767447-o2ms3jm9mlpj4evq873ceqtqrtm6u99m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
     }
   ],
   "configuration_version": "1"
