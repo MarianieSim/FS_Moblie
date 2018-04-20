@@ -1,9 +1,17 @@
+<<<<<<< HEAD:app/src/main/java/com/filmscout/nasha/fs/app/main/EditAccountActivity.java
 package com.filmscout.nasha.fs.app.main;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
+=======
+package com.example.simeonm.filmscout;
+import android.content.Intent;
+import android.support.annotation.NonNull;
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+>>>>>>> 0c888c93b6d7875e44963a7f5c8d3c4c12325c98:app/src/main/java/com/example/simeonm/filmscout/EditAccoutActivity.java
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -16,6 +24,10 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.auth.UserProfileChangeRequest;
+<<<<<<< HEAD:app/src/main/java/com/filmscout/nasha/fs/app/main/EditAccountActivity.java
+=======
+
+>>>>>>> 0c888c93b6d7875e44963a7f5c8d3c4c12325c98:app/src/main/java/com/example/simeonm/filmscout/EditAccoutActivity.java
 
 public class EditAccountActivity extends AppCompatActivity {
     private Button Buser;
@@ -69,7 +81,7 @@ public class EditAccountActivity extends AppCompatActivity {
         super.onStart();
         if (mAuth.getCurrentUser() == null) {
             finish();
-            startActivity(new Intent(this, MainActivity.class));
+            startActivity(new Intent(this, MActivity.class));
         }
     }
 

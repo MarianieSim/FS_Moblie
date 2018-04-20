@@ -6,7 +6,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
+<<<<<<< HEAD:app/src/main/java/com/filmscout/nasha/fs/app/main/WelcomeActivity.java
 import com.filmscout.nasha.fs.R;
+=======
+>>>>>>> 0c888c93b6d7875e44963a7f5c8d3c4c12325c98:app/src/main/java/com/example/simeonm/filmscout/WelcomeActivity.java
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
@@ -42,7 +45,7 @@ public class WelcomeActivity extends AppCompatActivity {
             public void onClick(View v) {
                 mAuth.getInstance().signOut();
                 finish();
-                startActivity(new Intent(WelcomeActivity.this, MainActivity.class));
+                startActivity(new Intent(WelcomeActivity.this, MActivity.class));
             }
         });
 
@@ -79,7 +82,7 @@ public class WelcomeActivity extends AppCompatActivity {
         super.onStart();
         if (mAuth.getCurrentUser() == null) {
             finish();
-            startActivity(new Intent(this, MainActivity.class));
+            startActivity(new Intent(this, MActivity.class));
         }
     }
 }
